@@ -43,3 +43,11 @@ The system utilizes a 3NF (Third Normal Form) relational structure to eliminate 
    ```bash
    git clone [https://github.com/zulqarnainjadoon99/your-repo-name.git](https://github.com/zulqarnainjadoon99/your-repo-name.git)
    cd your-repo-name
+
+---
+
+## 📬 Connect & Collaborate
+If you are an international client or recruiter looking for professional AI automation or backend development, feel free to reach out through official channels:
+
+* **LinkedIn:** [Zulqarnain Khan Jadoon on LinkedIn](https://www.linkedin.com/in/zulqarnain-khan-jadoon-4525531a4)
+* **Professional Channel:** Verified via OpenTrain AI Specialist Network
