@@ -1,36 +1,44 @@
 # Python Projects — Zulqarnain Khan Jadoon
 
-A collection of Python projects and practical exercises focused on IT support, data management, automation, and application development.
+A small collection of standalone Python command-line exercises covering personal expense tracking, student record management, and sample office reporting.
 
-## Featured Project: IT Support Ticket & Inventory Management System
+## Projects
 
-A command-line project built with Python and SQLite to demonstrate how an organization can organize support tickets, users, and IT assets.
+### 1. Personal Expense Tracker — `expense_tracker.py`
+- Add and delete expense records.
+- View all expenses and the total amount recorded.
+- Summarize expenses by category.
+- Generate a monthly summary report.
+- Save records locally in `expenses.json` using JSON.
 
-### Main Capabilities
+### 2. Office Data Report — `office_data_report.py`
+- Generate a formatted console report from a built-in sample student dataset.
+- Summarize student count, average marks, pass/fail totals, and fee status.
+- Display pending fee totals and grade distribution.
+- Uses illustrative sample records; it does not generate an Excel workbook in its current form.
 
-- Store and manage user, asset, and support-ticket records.
-- Track ticket progress through statuses such as Open, In Progress, Resolved, and Closed.
-- Link support requests with users and relevant IT assets.
-- Support structured data storage using SQLite.
-- Demonstrate relational database design and input validation.
+### 3. Student Record Management System — `student_record_system.py`
+- Add, view, search, and delete student records.
+- Display a summary of total students, average marks, and highest/lowest marks.
+- Save records locally in `students.json` using JSON.
 
-### Technologies
+## Run Locally
 
-- Python 3
-- SQLite
-- SQL and relational database concepts
+Python 3 is required. The scripts use Python's standard library; no third-party package installation is required.
 
-### Concepts Demonstrated
+Run each program separately from the repository folder:
 
-- Database tables and relationships
-- Primary and foreign keys
-- CRUD operations and data validation
-- Basic IT service management workflows
-- Separation of data storage and application logic
+```bash
+python expense_tracker.py
+python office_data_report.py
+python student_record_system.py
+```
 
-## Repository Scope
+The JSON data files are created in the working directory when the relevant program saves records.
 
-This repository is intended as a learning and portfolio collection. Refer to the source files in the repository for the implementation details and available run instructions.
+## Scope
+
+These are educational command-line programs. This repository currently contains the three scripts listed above; it does not contain an IT support ticket and inventory management application or a SQLite-based ticketing system.
 
 ## Developer
 
@@ -41,4 +49,4 @@ This repository is intended as a learning and portfolio collection. Refer to the
 
 ---
 
-*Projects are educational demonstrations. Features and implementation details should be assessed from the source code.*
+*Review the source files for the exact implementation and limitations of each exercise.*
